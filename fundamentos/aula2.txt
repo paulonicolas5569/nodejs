@@ -1,0 +1,67 @@
+aula2
+
+dica:
+extensões do VScode -> fundamentos extras bracket pair (Color DLW = extensão para mudar a cor dos parenteses, colchetes e chaves,) facilitando o reconhecimento e identação do codigo   
+
+---------------------------------------------------------------
+
+sintaxe básica de linguagem javascript (js)
+; no final (não é obrigatorio) 
+conceito de sentenças (linha de codigo)
+conceito de bloco { } 
+toda ves que aparecer "SyntaxError" seigifica erro na digitação 
+vareavel ( https://scratch.mit.edu/ )
+---------------------------------------------------------------
+
+vareaveis 
+na linguagem javascript as variaveis são dinamicamente tipadas (tipo depende do dado aribuido )
+
+tipo de variaveis 
+ /** serve para comentar no codigo
+ "let"  (criar variaveis no javascript)
+ const (cria uma constante no js)  
+ quando vc usa "" aspas duplas segnifica "string" (stringe de caracteres) 
+ console.clear (limpa a tela do console) 
+ tipos de variaveis/constante 
+ - numericas (inteiros e não inteiros)
+ - booleano(verdadeiro ou falso)
+
+ console.clear (limpa a tela)
+ console. log(typeof()) (exibe o tipo de variaveis)
+
+IMPORTANTE !!  
+ao definir nomes para constante e variáveis: 
+- não usar espaço 
+- não usar acentos e caracteres especiais 
+- iniciar com uma letra minuscula
+- definir nomes que estão relacionados  ao poblema (cdigo limpo)
+-usar atecnica do camelo (camel case) para nomes de variaveis compostos 
+Ex: nome cliente -> nomeCliente
+
+---------------------------------------------------------------
+Opedadores aritimeticos 
+- são usados em operações aritimeticas junto as constante/ vareaveis 
+Atenção  regra da precedencia !
+
+Opedadores atribuição 
+
+utilizados para atribuir um valor a uma variavel que ja possui um valor determinado, utilizando seu valor atual e o numero que deseja atribuir (+= | -= | *= | /= | ++= | --= )
+
+---------------------------------------------------------------
+Comparadores 
+utilizados para fazer comparação de valores entre variantes, sendo seu tipo de resposta sempre booleano (>= | < | <= | >= |  === | !== ) 
+
+---------------------------------------------------------------
+operadors Logicos 
+operadores utiliados para verificação , onde uma ação ira ocorrer caso o usuario cumpra todos os requisitos ou algum deles (and / or ) (&& | || | !) 
+
+---------------------------------------------------------------
+
+ cd + pasta = entra na pasta 
+ /** = comenta codigos 
+ cls = limpa terminal
+ " para texto 
+
+
+
+
