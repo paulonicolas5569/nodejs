@@ -1,0 +1,33 @@
+            
+            aula3
+            
+ Algorítmo  ("receita de bolo")
+ exemplo: criar um app para celcular a média de duas notas 
+
+ como calcular a média : 
+            nota 10 + nota 5 
+média = _____________________ = 7,5
+                  2
+
+//vareaveis 
+3 -> numericas (nota1,nota2,media)
+
+//entrada 
+nota1, nota2
+
+//processamento 
+média = (nota1 + nota 2) / 2
+
+//saída 
+média 
+
+---------------------------------------------------------------
+
+vareaveis do mesmo propósito podem ser criadas em uma única linha separadas por virgula 
+
+concatenação (juntar um texto com o conteúdo de uma vareavel)
+console.log(`texto: ${vareavel}`)
+
+
+
+
