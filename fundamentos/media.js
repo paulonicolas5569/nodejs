@@ -1,37 +1,34 @@
-/**
- * app para calcular a média de 2 notas 
- */
+                Aula4
 
-//Vareaveis
+1) entender o poblema 
+2) pensar no usuário(ux)
+https://www.youtube.com/@FilipeDeschamps
+3) codigo limpo 
+https://www.amazon.com.br/codificador-limpo-conduta-programadores-profissionais/dp/8576086476?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1ZZFT5FULY4LN
 
-let name, disciplina
-let nota1, nota2, media 
+---------------------------------------------------------------
 
-console.clear
+NPM- gerenciador de pacotes node
+instalação do npm: 
+npm init ( responde as perguntas ) 
+- gerar o arquivo package.json
+npm ls (lista os pacotes(móduls)instalados)
+npm i nome_do_pacote (instala o pacote)
 
-console.log("'########:::'#######::'##:::::::'########:'########:'####:'##::: ##:")
-console.log("##.... ##:'##.... ##: ##::::::: ##.....::... ##..::. ##:: ###:: ##:")
-console.log("##:::: ##: ##:::: ##: ##::::::: ##:::::::::: ##::::: ##:: ####: ##:")
-console.log("########:: ##:::: ##: ##::::::: ######:::::: ##::::: ##:: ## ## ##:")
-console.log("##.... ##: ##:::: ##: ##::::::: ##...::::::: ##::::: ##:: ##. ####:")
-console.log("##:::: ##: ##:::: ##: ##::::::: ##:::::::::: ##::::: ##:: ##:. ###:")
-console.log("########::. #######:: ########: ########:::: ##::::'####: ##::. ##:")
-console.log("........::::.......:::........::........:::::..:::::....::..::::..:: ")           
+repositoroi npm https://www.npmjs.com/
 
-//entrada das vareaveis 
-nome = "Paulo Nicolas"
-disciplina = "Matematica"
-nota1 = 8 
-nota2 = 9 
+---------------------------------------------------------------
 
-//processamento
-media = (nota1 + nota2 ) / 2
+instalação do pacote readline-sync para input (entrada de dados) via console;
+npm i readline-sync
 
-//saida
-console.log(`nome: ${nome}`)
-console.log(`disciplina: ${disciplina}`)
-console.log(`nota1: ${nota1}`)
-console.log(`nota2: ${nota2}`)
-console.log(`media final: ${media}`)
+para usar o recurso (pacote readline-sync)
+const read = require ('readline-sync')
 
+passo 1) importer no inicio do codigo 
+const read = require ('readline-sync')
 
+passo 2) nome_variavel = read.question("text qualquer")
+passo 3) nome_variavel = number (read.question("texto qualquer))
+
+obs: number converte uma stringe em numero 
