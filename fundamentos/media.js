@@ -1,34 +1,45 @@
-                Aula4
+/**
+ * app para calcular a média de 2 notas 
+ *
+ */
 
-1) entender o poblema 
-2) pensar no usuário(ux)
-https://www.youtube.com/@FilipeDeschamps
-3) codigo limpo 
-https://www.amazon.com.br/codificador-limpo-conduta-programadores-profissionais/dp/8576086476?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1ZZFT5FULY4LN
+//impoprtação do pacote readline-sync
+const read = require("readline-sync")
 
----------------------------------------------------------------
+//Vareaveis
 
-NPM- gerenciador de pacotes node
-instalação do npm: 
-npm init ( responde as perguntas ) 
-- gerar o arquivo package.json
-npm ls (lista os pacotes(móduls)instalados)
-npm i nome_do_pacote (instala o pacote)
+let name, disciplina
+let nota1, nota2, media 
 
-repositoroi npm https://www.npmjs.com/
+console.clear()
 
----------------------------------------------------------------
+console.log("'########:::'#######::'##:::::::'########:'########:'####:'##::: ##:")
+console.log("##.... ##:'##.... ##: ##::::::: ##.....::... ##..::. ##:: ###:: ##:")
+console.log("##:::: ##: ##:::: ##: ##::::::: ##:::::::::: ##::::: ##:: ####: ##:")
+console.log("########:: ##:::: ##: ##::::::: ######:::::: ##::::: ##:: ## ## ##:")
+console.log("##.... ##: ##:::: ##: ##::::::: ##...::::::: ##::::: ##:: ##. ####:")
+console.log("##:::: ##: ##:::: ##: ##::::::: ##:::::::::: ##::::: ##:: ##:. ###:")
+console.log("########::. #######:: ########: ########:::: ##::::'####: ##::. ##:")
+console.log("........::::.......:::........::........:::::..:::::....::..::::..:: ")           
 
-instalação do pacote readline-sync para input (entrada de dados) via console;
-npm i readline-sync
+//entrada das vareaveis 
+nome = read.question("digite o seu nome: ")
+disciplina = read.question("digite a diciplina: ")
+nota1 = Number(read.question("digite a nota1: "))
+nota2 = Number(read.question("digite a nota2: "))
 
-para usar o recurso (pacote readline-sync)
-const read = require ('readline-sync')
+//processamento
+media = (nota1 + nota2 ) / 2
 
-passo 1) importer no inicio do codigo 
-const read = require ('readline-sync')
+//saida
+console.clear()
+console.log("----------------------------")
+console.log("ficha do aluno") 
+console.log(`nome: ${nome}`)
+console.log(`disciplina: ${disciplina}`)
+console.log(`nota1: ${nota1}`)
+console.log(`nota2: ${nota2}`)
+console.log(`media final: ${media}`)
+console.log("-----------------------------")
 
-passo 2) nome_variavel = read.question("text qualquer")
-passo 3) nome_variavel = number (read.question("texto qualquer))
 
-obs: number converte uma stringe em numero 
