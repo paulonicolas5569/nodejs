@@ -1,0 +1,49 @@
+exercicio 2 >>>>>>>>
+conversor de temperatura : 
+fahrenheit para celsius 
+
+            fahrenheit - 32
+celsius = _________________
+                1 , 8
+
+// variaveis 
+c,f (numericas)
+
+//entrada 
+f
+
+//processamento 
+c = (f - 32) / 1.8 
+
+//saída 
+c
+
+---------------------------------------------------------------
+dica: 
+para formatar o resutado em numeros especificos de casa decimais usamos: .tofixed(2)
+(2) duas casa decimais após o ponto
+
+---------------------------------------------------------------
+
+exercicio 2 >>>>>>>>
+regra de 3 ( cálculo da porcentagem)
+criar no scrstch e no js um app para fazer o cálculo de %, seguindo o modelo abaixo 
+
+10% de 200 = 20
+
+x   y   valor 
+
+Formula da (regrea de 3)
+valor = (x * y) / 100
+
+//variaveis
+valor ,x,v (numericas)
+
+// entrada 
+x,y
+
+// Processamento 
+valor = (x * y) / 100 
+
+//Saida 
+valor
