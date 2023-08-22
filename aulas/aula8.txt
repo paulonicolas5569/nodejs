@@ -1,0 +1,17 @@
+Atividade de avaliação individual (entrega pelo Girhub)
+
+1) criar um repositorio no Girhub e hospedar todos os projetos feitos no scretch (7 progetos).
+
+2)criar no scretch um APP para calcular o valor da hora de serviço de um técnico de informatica .
+
+ remuneração mensal pretendida: (5000) 
+ reserva : 30% remuneração (1500) 
+ custo operacional: (500) 
+ Investimento: 20%  remuneração (1000)
+
+soma : 8000
+
+Determinar horas/meses (160)
+
+hora tecnica = 8000 / 160
+hora tecnica = 50,00 
