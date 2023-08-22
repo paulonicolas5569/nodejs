@@ -1,0 +1,11 @@
+aula7
+
+Girhub
+Linguagem de marcação markdown 
+# = Titulos
+## = Subtitulos 
+![]() = Inserir imagenis 
+[]() = Inserir links
+
+dica : selo de metadados 
+https://shields.io/
