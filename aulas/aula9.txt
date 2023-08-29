@@ -1,0 +1,25 @@
+pacote/módulo = biblioteca (funcionalidades escritas em 15 
+
+npm (gerenciadorde pacote)
+|__ package.json (principal arquinvo configuração)
+
+npm init (iniciar um novo package.json)
+npm ls (listar os pacotes istalados)
+npm i ou npm install (instalar um novo pacote )
+
+--------------------------------------------------------------
+cd [enter] vai para a pasta (diretório)
+cd .. [enter] volta um nível 
+
+---------------------------------------------------------------
+estruturas de controle 
+condicionais 
+
+if (condição){
+    //condição verdadeira
+    // sem o else, ele só ignora
+}else{ 
+    //condição falsa 
+}
+
+observação: uma condição nunca pode ser verdadeira e falsa ao mesmo tempo 
