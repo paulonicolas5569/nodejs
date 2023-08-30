@@ -1,0 +1,32 @@
+mandamentos da programação 
+
+1º mandamento: 
+entender o poblema
+
+2º mandamento: 
+pensar primeiro na UX (experiência do usuário )
+
+3º mandamento:
+clean code (usar o mínimo de recursos possiveis )
+
+====================================================
+
+exercício: desenvolver no scratch e no nodeJS um APP que informe qual é o combustível mais vantajoso(etanol x gasolina) para abastecer um carro flex
+
+//variaveis
+etanol, gasolina (numerica)
+
+//entrada 
+etanol, gasolina
+
+//processamento/ saida 
+se o preco do litro do etanol custar até 70% do preco da litro gasolina abastecer 
+com etanol
+senão abastecer 
+com gasolina  
+
+if(etanol < 0.7 * gasolina){
+    //abastecer com etanol
+    } else {
+        // abastecer com gasolina 
+}
