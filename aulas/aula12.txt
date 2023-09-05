@@ -1,0 +1,40 @@
+Estrutura de controle condicional 
+encadeamento/aninhamento if - else 
+
+if (condição){
+    //condição verdadeira
+}else{
+    // condição falsa    
+}
+---------------------------------------
+
+  if (condição1){
+           //condição 2 verdadeira 
+}else{
+    // condição 2 falsa
+
+    }
+}
+------------------------------------------
+ if (condição1){
+           //condição 2 verdadeira 
+}else if (condição 2 ) {
+    // condição 2 verdadeira
+    }else{ 
+        //nenhuma condição anterior verdadeira 
+        }
+
+-----------------------------------------------
+EXERCICIO :     
+desenvolver no scratch e no node.js um APP que informe a 
+abrigatoriedade de votar em fução da idade , sabendo que : 
+- abaixo de 16 anos o voto é proibido 
+- 16,17 ou acima de 70 aos o voto é facutativo 
+- entre 18 e 70 (incluindo o 18 e o 70) o voto é obrigatorio 
+
+// variaveis 
+idade 
+
+// processamento 
+encadeamento if - else 
+
