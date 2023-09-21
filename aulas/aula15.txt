@@ -1,0 +1,16 @@
+Estrutura de controle 
+Laços de repetições 
+While | do while 
+
+while (condição) {
+    //condição verdadeira 
+}
+=======================================================
+while (x < 11 ){
+    console.log("teste")
+    x++
+}
+do{
+    //sempre executa o código 1 vez independente da condição
+    //depois analisa a condição ( semelhante a estrutura while )
+} ( while (y < 11 ))
