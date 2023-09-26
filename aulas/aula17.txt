@@ -1,0 +1,12 @@
+Funções 
+Função é um bloco de código reutilizável 
+*** uma função pode ser executada do documento HTML
+
+// execução interna 
+html <script></script>
+// link para um documento (recomendado)
+html ------js
+
+EXEMPLO : 
+
+index.html --------- app.js 
