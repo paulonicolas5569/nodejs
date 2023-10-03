@@ -1,0 +1,28 @@
+Abistração 
+
+POO
+
+Pilares:
+- Abstração (interfaces)
+- Encapsulamento
+- Hrança 
+- polimorfismo
+--------------------------------------------------------------
+Atribuição 
+
+Modelo de classe = onde serão modelos predefinidos para melhorar a 
+versatibilidade do codigo (onde se constrio o objeto)
+
+--------------------------------------------------------------
+
+//herança
+ Extende (reutiliza)atributos e metodos da classe principal 
+Herança múltipla é quando uma classe herda de mais de um tipo.
+---------------------------------------------------------------
+
+//Polimorfismo 
+modifica o comportamento de u metodo existente na classe 
+principal
+Muitas formas para fazer a mesma coisa, porém com diferentes resultados.
+
+
