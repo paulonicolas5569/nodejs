@@ -25,4 +25,11 @@ modifica o comportamento de u metodo existente na classe
 principal
 Muitas formas para fazer a mesma coisa, porém com diferentes resultados.
 
+----------------------------------------------------------------
+
+//Encapsulamento
+segurança (protege o acesso as variaveis)
+-- Atributos (variaveis) -> privados 
+-- Métodos especificos (get e set) são usados para acessar as variaveis -> publicos ou protegidos
+
 

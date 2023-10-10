@@ -1,0 +1,9 @@
+Atividade de avaliação POO2
+agencia bancaria
+desafio:
+1. Encapsulamento os atributos da classe conta 
+2. criar mais dois objetos (clientes:robson vaamonde e sirlene aparenciada)
+3. criar um novo metodo para "pix" tranferencia de valores entre contas corrente e 
+tambem enter contas correntes - poupança. EXleandro -> sirlene robson (poupança)
+4. criar um novo metodo para transferencia da conta corrente para conta poupança 
+5. melhorar a experiencia do usuario 
