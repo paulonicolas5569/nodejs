@@ -34,7 +34,7 @@ class Conta {
             this._saldo -= valor;
             console.log(`Débito de R$ ${valor.toFixed(2)}`);
         } else {
-            console.log("Operação negada! Saldo insuficiente");
+            console.log("Operacao negada! Saldo insuficiente");
         }
     }
 
@@ -44,7 +44,16 @@ class Conta {
             destino.depositar(valor);
             console.log(`PIX de R$ ${valor.toFixed(2)} para ${destino.getTitular()} realizado com sucesso.`);
         } else {
-            console.log("Operação negada! Saldo insuficiente.");
+            console.log("Operacao negada! Saldo insuficiente.");
+        }
+    }
+    tranferenciaPoupanca(valor, poupanca) {
+        if (valor <= this._saldo) {
+            this._saldo -= valor;
+            poupanca.depositar(valor);
+            console.log(`tranferencia de R$ ${valor.toFixed(2)} para ${poupanca.getTitular()} poupanca realizado com sucesso.`);
+        } else {
+            console.log("Operacao negada! Saldo insuficiente.");
         }
     }
 }
@@ -91,8 +100,10 @@ leandro.pix(200, sirlene); // Transfer from Leandro to Sirlene
 leandro.pix(300, robson); // Transfer from Leandro to Robson
 leandro.pix(100, poupancaRobson); // Transfer from Leandro to Robson's Poupança account
 
+robson.tranferenciaPoupanca(900,poupancaRobson);
 console.log("Updated Balances:");
 leandro.exibirSaldo();
 sirlene.exibirSaldo();
 robson.exibirSaldo();
 poupancaRobson.exibirSaldo();
+
