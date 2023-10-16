@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website de Banco</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0074c3;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .account-info {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+
+        .transaction-history {
+            margin-top: 20px;
+        }
+
+        .transaction-form {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        footer {
+            background-color: #0074c3;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Website de Banco</h1>
+    </header>
+    
+    <main>
+        <div class="account-info">
+            <h2>Informações da Conta</h2>
+            <p><strong>Titular da Conta:</strong> Seu Nome</p>
+            <p><strong>Número da Conta:</strong> 12345</p>
+            <p><strong>Saldo:</strong> R$ 1.000,00</p>
+        </div>
+
+        <div class="transaction-history">
+            <h2>Histórico de Transações</h2>
+            <ul>
+                <li>Depositou R$ 100,00</li>
+                <li>Sacou R$ 50,00</li>
+                <li>Transferiu R$ 200,00 para João da Silva</li>
+            </ul>
+        </div>
+
+        <div class="transaction-form">
+            <h2>Realizar Transações</h2>
+            <form action="" method="post">
+                <label for="depositAmount">Valor do Depósito: </label>
+                <input type="number" id="depositAmount" name="depositAmount" step="0.01">
+                <button type="submit" name="deposit">Depositar</button>
+            </form>
+
+            <form action="" method="post">
+                <label for="withdrawAmount">Valor do Saque: </label>
+                <input type="number" id="withdrawAmount" name="withdrawAmount" step="0.01">
+                <button type="submit" name="withdraw">Sacar</button>
+            </form>
+
+            <form action="" method="post">
+                <label for="transferAmount">Valor da Transferência: </label>
+                <input type="number" id="transferAmount" name="transferAmount" step="0.01">
+                <label for="targetAccount">Para Conta: </label>
+                <select id="targetAccount" name="targetAccount">
+                    <option value="account1">Conta 1</option>
+                    <option value="account2">Conta 2</option>
+                </select>
+                <button type="submit" name="transfer">Transferir</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2023 Meu Website de Banco
+    </footer>
+</body>
+</html>
